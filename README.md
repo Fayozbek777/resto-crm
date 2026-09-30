@@ -58,3 +58,8 @@
 * `POST /api/v1/staff/shifts/clock-in` — Фиксация открытия рабочей смены сотрудником.
 * `POST /api/v1/staff/shifts/clock-out` — Фиксация закрытия рабочей смены.
 * `GET /api/v1/staff/performance` — Статистика выручки и среднего чека по каждому официанту.
+* 
+## 11. 📊 Reports & Analytics (`/reports`)
+* `GET /api/v1/reports/dashboard` — Сводные метрики за день (выручка, средний чек, загрузка зала в %).
+* `GET /api/v1/reports/abc-analysis` — Отчет по самым продаваемым и маржинальным позициям меню.
+* `GET /api/v1/reports/revenue-period` — Данные графиков выручки по дням/неделям для React-дашборда.
